@@ -1,10 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 
+import React from 'react';
+import FlightsList from './FlightsList'; // Import the component
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
+    return (
+        <div className="App">
+            <h1>Flight Search Results</h1>
+            <FlightsList /> {/* Use the component */}
+        <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -19,7 +24,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
+    );
 }
 
 export default App;
