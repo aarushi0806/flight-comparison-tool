@@ -3,17 +3,19 @@ const axios = require('axios');
 const app = express();
 const port = 3000;
 
-app.listen(port, () => {
-    console.log(`Server running on http://localhost:${port}`);
-});
-
 app.get('/api/flight-search', async (req, res) => {
-    const { from, to, departureDate, returnDate, adults, children, infants, classType, currency } = req.query;
-
+    const { from, to, departureDate } = req.query;
+    const apiKey = "656a690ad5183388b874c6a4";
+    const adults = "1";
+    const children = "0";
+    const infants = "0";
+    const classType = "Economy";
+    const currency = "USD";
+  
     try {
-        const response = await axios.get("https://api.flightapi.io/onewaytrip/656a690ad5183388b874c6a4/HEL/OUL/2024-05-20/1/0/0/Economy/USD");
-        res.json(response.data);
+      const response = await axios.get(`https://api.flightapi.io/onewaytrip/${apiKey}/${from}/${to}/${departureDate}/${adults}/${children}/${infants}/${classType}/${currency}`);
+      res.json(response.data);
     } catch (error) {
-        res.status(500).send(error.toString());
+      res.status(500).send(error.toString());
     }
-});
+  });

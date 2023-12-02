@@ -1,0 +1,43 @@
+.flight-results-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .flight-item {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .flight-image {
+    width: 150px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    margin-right: 20px;
+    object-fit: cover; /* This will ensure the image covers the area nicely */
+    border-radius: 4px;
+  }
+  
+  .flight-details {
+    flex-grow: 1;
+    text-align: left;
+  }
+  
+  .no-flights-found {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
