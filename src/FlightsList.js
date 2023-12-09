@@ -198,6 +198,96 @@ function FlightsList() {
         price: Math.floor(Math.random() * 1000) + 100,
         imageUrl: 'https://1000logos.net/wp-content/uploads/2019/08/southwest-airlines-logo-768x347.png', // Placeholder image
       },
+      {
+        id: 4,
+        airline: 'Southwest',
+        departureAirportCode: 'SFO',
+        arrivalAirportCode: 'LAX',
+        departureTime: '6:00 PM',
+        arrivalTime: '8:00 PM',
+        price: Math.floor(Math.random() * 1000) + 100,
+        imageUrl: 'https://1000logos.net/wp-content/uploads/2019/08/southwest-airlines-logo-768x347.png', // Placeholder image
+      },
+      {
+        id: 5,
+        airline: 'United Airlines',
+        departureAirportCode: 'SFO',
+        arrivalAirportCode: 'LAX',
+        departureTime: '7:00 PM',
+        arrivalTime: '9:00 PM',
+        price: Math.floor(Math.random() * 1000) + 100,
+        imageUrl: 'https://1000logos.net/wp-content/uploads/2017/06/United-Airlines-Logo-768x480.png', // Placeholder image
+      },
+      {
+        id: 6,
+        airline: 'Delta Airlines',
+        departureAirportCode: 'SFO',
+        arrivalAirportCode: 'LAX',
+        departureTime: '10:00 PM',
+        arrivalTime: '12:00 AM',
+        price: Math.floor(Math.random() * 1000) + 100,
+        imageUrl: 'https://1000logos.net/wp-content/uploads/2017/09/Delta-Air-Lines-Logo.png', // Placeholder image
+      },
+      {
+        id: 7,
+        airline: 'Delta Airlines',
+        departureAirportCode: 'SFO',
+        arrivalAirportCode: 'LAX',
+        departureTime: '5:00 AM',
+        arrivalTime: '7:00 AM',
+        price: Math.floor(Math.random() * 1000) + 100,
+        imageUrl: 'https://1000logos.net/wp-content/uploads/2017/09/Delta-Air-Lines-Logo.png', // Placeholder image
+      },
+      {
+        id: 8,
+        airline: 'Southwest',
+        departureAirportCode: 'SFO',
+        arrivalAirportCode: 'LAX',
+        departureTime: '1:00 PM',
+        arrivalTime: '3:00 PM',
+        price: Math.floor(Math.random() * 1000) + 100,
+        imageUrl: 'https://1000logos.net/wp-content/uploads/2019/08/southwest-airlines-logo-768x347.png', // Placeholder image
+      },
+      {
+        id: 9,
+        airline: 'Delta Airlines',
+        departureAirportCode: 'SFO',
+        arrivalAirportCode: 'LAX',
+        departureTime: '10:00 AM',
+        arrivalTime: '12:00 PM',
+        price: Math.floor(Math.random() * 1000) + 100,
+        imageUrl: 'https://1000logos.net/wp-content/uploads/2017/09/Delta-Air-Lines-Logo.png', // Placeholder image
+      },
+      {
+        id: 10,
+        airline: 'United Airlines',
+        departureAirportCode: 'SFO',
+        arrivalAirportCode: 'LAX',
+        departureTime: '8:00 PM',
+        arrivalTime: '10:00 PM',
+        price: Math.floor(Math.random() * 1000) + 100,
+        imageUrl: 'https://1000logos.net/wp-content/uploads/2017/06/United-Airlines-Logo-768x480.png', // Placeholder image
+      },
+      {
+        id: 11,
+        airline: 'Southwest',
+        departureAirportCode: 'SFO',
+        arrivalAirportCode: 'LAX',
+        departureTime: '2:00 PM',
+        arrivalTime: '4:00 PM',
+        price: Math.floor(Math.random() * 1000) + 100,
+        imageUrl: 'https://1000logos.net/wp-content/uploads/2019/08/southwest-airlines-logo-768x347.png', // Placeholder image
+      },
+      {
+        id: 12,
+        airline: 'Southwest',
+        departureAirportCode: 'SFO',
+        arrivalAirportCode: 'LAX',
+        departureTime: '6:00 PM',
+        arrivalTime: '8:00 PM',
+        price: Math.floor(Math.random() * 1000) + 100,
+        imageUrl: 'https://1000logos.net/wp-content/uploads/2019/08/southwest-airlines-logo-768x347.png', // Placeholder image
+      },
   ];
 
   const handleSearch = (searchTerm) => {
