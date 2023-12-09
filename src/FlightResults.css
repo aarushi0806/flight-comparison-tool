@@ -22,7 +22,7 @@
     width: 150px; /* Adjust as needed */
     height: 100px; /* Adjust as needed */
     margin-right: 20px;
-    object-fit: cover; /* This will ensure the image covers the area nicely */
+    object-fit: contain; /* This will ensure the image covers the area nicely */
     border-radius: 4px;
   }
   
